@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mealswipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginBottom="100dp"
+        android:text="Mon-Thurs           5-8"
+        android:textColor="#960000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="125dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginRight="272dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687"
+        app:srcCompat="@drawable/cosi" />
+
+    <TextView
+        android:id="@+id/qdobaWeek6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:text="Mon-Thurs            5-8"
+        android:textColor="#960000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qdobaTitle8" />
+
+    <TextView
+        android:id="@+id/qdobaTitle8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="452dp"
+        android:text="Cosi:                      Hours"
+        android:textColor="#960000"
+        app:layout_constraintStart_toStartOf="@+id/qdobaWeek6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cfaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="176dp"
+        android:text="Chick-Fil-A:            Hours"
+        android:textColor="#960000"
+        app:layout_constraintStart_toStartOf="@+id/cfaWeek"
+        app:layout_constraintTop_toTopOf="@+id/divider" />
+
+    <TextView
+        android:id="@+id/qdobaWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Mon-Thurs            11-2 ; 5-8"
+        android:textColor="#960000"
+        app:layout_constraintStart_toStartOf="@+id/qdobaWeekend"
+        app:layout_constraintTop_toBottomOf="@+id/qdobaTitle" />
+
+    <TextView
+        android:id="@+id/qdobaWeekend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Sat-Sun                   5-8"
+        android:textColor="#960000"
+        app:layout_constraintBottom_toBottomOf="@+id/divider"
+        app:layout_constraintStart_toStartOf="@+id/qdobaTitle8"
+        app:layout_constraintTop_toBottomOf="@+id/qdobaTitle"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/qdobaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Qdoba:                   Hours"
+        android:textColor="#960000"
+        app:layout_constraintStart_toStartOf="@+id/qdobaWeek"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cfaWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Mon-Thurs            11-2 ; 5-8"
+        android:textColor="#960000"
+        app:layout_constraintStart_toStartOf="@+id/cfaWeekend"
+        app:layout_constraintTop_toBottomOf="@+id/cfaTitle" />
+
+    <TextView
+        android:id="@+id/cfaWeekend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sat-Sun                   5-8"
+        android:textColor="#960000"
+        app:layout_constraintStart_toStartOf="@+id/qdobaTitle"
+        app:layout_constraintTop_toBottomOf="@+id/cfaWeek" />
+
+    <ImageButton
+        android:id="@+id/qdobaButton"
+        android:layout_width="123dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginRight="272dp"
+        android:layout_marginBottom="320dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/qdoba" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="715dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/qdobaButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/cfaButton"
+        android:layout_width="122dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="164dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider"
+        app:srcCompat="@drawable/chickfila" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="125dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginRight="268dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912"
+        app:srcCompat="@drawable/hgrill" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="8dp"
+        android:text="Harrison Grill:      Hours"
+        android:textColor="#960000"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
